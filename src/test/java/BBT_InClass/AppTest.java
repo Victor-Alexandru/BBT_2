@@ -31,9 +31,10 @@ public class AppTest
 
         Student s1 = new Student("1", "Antoniu", 931, "a@a.ro","Artur Molnar");
         Student s2 = new Student("2", "Antoniu", 931, "a@a.ro","Artur Molnar");
+        //students already exists in the xml so it will be 3
         stdService.add(s1);
         stdService.add(s2);
-        Integer expected = 2;
+        Integer expected = 3;
         Assert.assertEquals(stdService.getSize(),expected);
     }
     @Test
