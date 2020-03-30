@@ -70,8 +70,15 @@ public class AppTest {
 
         Teme t1 = new Teme(1, "wwww", 1, 2);
         temeService.add(t1);
-        Integer expectedHere = 1;
-        Assert.assertEquals(t1.getID(), expectedHere);
+        try {
+            Teme t4 = new Teme(1, "wwww", 1, 2);
+            t4.setID(-400);
+            temeService.add(t4);
+        } catch (ValidationException e) {
+            Integer expectedHere = 1;
+            Assert.assertEquals(t1.getID(), expectedHere);
+        }
+
     }
 
     @Test
@@ -82,11 +89,12 @@ public class AppTest {
         temeService.add(t2);
         temeService.add(t2);
         Integer expectedHere = 2;
+        Assert.assertEquals(t2.getID(), expectedHere);
         Integer expectedHereTwo = 3;
         try {
             Teme t3 = new Teme(2, "wwww", 50, 15);
             //Invalid tema
-             
+
         } catch (ValidationException e) {
             Teme t4 = new Teme(2, "wwww", 1, 2);
             Assert.assertEquals(t4.getID(), expectedHereTwo);
