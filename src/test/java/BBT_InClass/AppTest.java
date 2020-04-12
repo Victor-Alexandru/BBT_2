@@ -43,7 +43,7 @@ public class AppTest {
         //students already exists in the xml so it will be 3
         stdService.add(s1);
         stdService.add(s2);
-        Integer expected = 3;
+        Integer expected = 2;
         Assert.assertEquals(stdService.getSize(), expected);
     }
 
