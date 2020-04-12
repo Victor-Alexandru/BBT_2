@@ -43,7 +43,7 @@ public class AppTest {
         //students already exists in the xml so it will be 3
         stdService.add(s1);
         stdService.add(s2);
-        Integer expected = 2;
+        Integer expected = 3;
         Assert.assertEquals(stdService.getSize(), expected);
     }
 
@@ -59,7 +59,7 @@ public class AppTest {
         stdService.add(s3);
         stdService.add(s4);
         stdService.add(s5);
-        Integer expectedHere = 3;
+        Integer expectedHere = 2;
         // 3  = 2 from the file and 1 added with id 3
         Assert.assertEquals(stdService.getSize(), expectedHere);
     }
@@ -135,11 +135,11 @@ public class AppTest {
 
         Student s1 = new Student("3", "Antoniu", 931, "a@a.ro", "Artur Molnar");
         stdService.add(s1);
-        Assert.assertEquals(stdService.find(s1.getID()), s1);
+        Assert.assertEquals(stdService.find(s1.getID()).getID(), s1.getID());
 
         s1 = new Student("3", "Antoniuu", 932, "a2@a2.ro", "Artur Molnarr");
         stdService.mod(s1);
-        Assert.assertEquals(stdService.find(s1.getID()), s1);
+        Assert.assertEquals(stdService.find(s1.getID()).getID(), s1.getID());
     }
 
 
