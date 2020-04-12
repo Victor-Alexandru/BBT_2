@@ -59,7 +59,7 @@ public class AppTest {
         stdService.add(s3);
         stdService.add(s4);
         stdService.add(s5);
-        Integer expectedHere = 2;
+        Integer expectedHere = 3;
         // 3  = 2 from the file and 1 added with id 3
         Assert.assertEquals(stdService.getSize(), expectedHere);
     }
