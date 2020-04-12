@@ -102,6 +102,47 @@ public class AppTest {
 
     }
 
+    @Test
+    public void  testDelete(){
+        this.setUp();
+        Teme t2 = new Teme(2, "wwww", 1, 2);
+        temeService.del(2);
+        temeService.add(t2);
+        Assert.assertEquals(temeService.find(t2.getID()), t2);
+
+        temeService.del(t2.getID());
+        Assert.assertNull(temeService.find(2));
+
+        Student s1 = new Student("3", "Antoniu", 931, "a@a.ro", "Artur Molnar");
+        stdService.del("3");
+        stdService.add(s1);
+        Assert.assertEquals(stdService.find(s1.getID()), s1);
+
+        stdService.del(s1.getID());
+        Assert.assertNull(stdService.find(s1.getID()));
+    }
+
+    @Test
+    public void testUpdate(){
+        this.setUp();
+        Teme t2 = new Teme(2, "wwww", 1, 2);
+        temeService.add(t2);
+        Assert.assertEquals(temeService.find(t2.getID()), t2);
+
+        t2 = new Teme(2, "wwww2", 12, 13);
+        temeService.mod(t2);
+        Assert.assertEquals(temeService.find(2), t2);
+
+        Student s1 = new Student("3", "Antoniu", 931, "a@a.ro", "Artur Molnar");
+        stdService.add(s1);
+        Assert.assertEquals(stdService.find(s1.getID()), s1);
+
+        s1 = new Student("3", "Antoniuu", 932, "a2@a2.ro", "Artur Molnarr");
+        stdService.mod(s1);
+        Assert.assertEquals(stdService.find(s1.getID()), s1);
+    }
+
+
 
     @Test
     public void shouldAnswerWithTrue() {
