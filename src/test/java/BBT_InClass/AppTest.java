@@ -54,7 +54,7 @@ public class AppTest {
         //students already exists in the xml so it will be 3
         stdService.add(s1);
         stdService.add(s2);
-        Integer expected = 2;
+        Integer expected = 3;
         Assert.assertEquals(stdService.getSize(), expected);
     }
 
@@ -138,7 +138,7 @@ public class AppTest {
         this.setUp();
         Teme t2 = new Teme(2, "wwww", 1, 2);
         temeService.add(t2);
-        Assert.assertEquals(temeService.find(t2.getID()), t2);
+        Assert.assertEquals(temeService.find(t2.getID()).getID(), t2.getID());
 
         t2 = new Teme(2, "wwww2", 12, 13);
         temeService.mod(t2);
@@ -173,6 +173,7 @@ public class AppTest {
         Teme t1 = temeService.find(1);
         expectedHere = 1;
         Assert.assertEquals(t1.getID(), expectedHere);
+        testAddGrade();
 
 
 
