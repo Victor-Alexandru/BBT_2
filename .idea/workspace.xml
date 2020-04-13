@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/Antoniu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Antoniu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BBT_InClass/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BBT_InClass/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BBT_InClass/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BBT_InClass/AppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,11 +23,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/BBT_InClass/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="140" column="76" selection-start-line="140" selection-start-column="76" selection-end-line="140" selection-end-column="76" />
+            <state relative-caret-position="272">
+              <caret line="148" column="68" lean-forward="true" selection-start-line="148" selection-start-column="68" selection-end-line="148" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5773#5774#0" expanded="true" />
+                <element signature="e#5789#5790#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -373,17 +374,11 @@
       <workItem from="1584861650608" duration="1950000" />
       <workItem from="1585545618162" duration="3696000" />
       <workItem from="1586699398611" duration="7443000" />
-      <workItem from="1586754263187" duration="2830000" />
+      <workItem from="1586754263187" duration="3001000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2020.04.13 at 08h 36m 43s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2020.04.13 at 08h 39m 27s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2020.04.13 at 08h 42m 48s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -408,9 +403,15 @@
     <history-entry file="AppTest - 2020.04.13 at 08h 49m 22s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2020.04.13 at 08h 51m 57s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2020.04.13 at 08h 54m 00s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22301000" />
+    <option name="totallyTimeSpent" value="22472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -642,11 +643,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BBT_InClass/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="140" column="76" selection-start-line="140" selection-start-column="76" selection-end-line="140" selection-end-column="76" />
+        <state relative-caret-position="272">
+          <caret line="148" column="68" lean-forward="true" selection-start-line="148" selection-start-column="68" selection-end-line="148" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5773#5774#0" expanded="true" />
+            <element signature="e#5789#5790#0" expanded="true" />
           </folding>
         </state>
       </provider>

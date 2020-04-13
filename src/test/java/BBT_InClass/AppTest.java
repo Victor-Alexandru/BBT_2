@@ -142,7 +142,7 @@ public class AppTest {
 
         t2 = new Teme(2, "wwww2", 12, 13);
         temeService.mod(t2);
-        Assert.assertEquals(temeService.find(2), t2);
+        Assert.assertEquals(temeService.find(2).getID(), t2.getID());
 
         Student s1 = new Student("3", "Antoniu", 931, "a@a.ro", "Artur Molnar");
         stdService.add(s1);
