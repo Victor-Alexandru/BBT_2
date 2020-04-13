@@ -20,7 +20,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class NoteRepo extends AbstractRepo<Nota, Map.Entry<String, Integer>> {
     private DocumentBuilderFactory builderFactory;
-    public NoteRepo(Validator<Nota> val){
+    public NoteRepo(Validator<Nota> val, String s){
         super(val);
         builderFactory= DocumentBuilderFactory.newInstance();
     }
@@ -131,6 +131,10 @@ public class NoteRepo extends AbstractRepo<Nota, Map.Entry<String, Integer>> {
             return null;
         }
     }
+
+//    public Integer getSize(){
+//        return
+//    }
 
 }
 

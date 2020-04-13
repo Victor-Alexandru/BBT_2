@@ -13,6 +13,7 @@ public class ServiceNote {
     public Nota add(Nota s, String fd){
         return rep.save(s,fd);
     }
+//    public Integer(){return; rep.g}
 
     public Iterable<Nota> all(){
         return rep.findAll();

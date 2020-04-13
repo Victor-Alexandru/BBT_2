@@ -3,12 +3,16 @@ package BBT_InClass;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
+import BBT_InClass.domain.Nota;
 import BBT_InClass.domain.Student;
 import BBT_InClass.domain.Teme;
+import BBT_InClass.repository.NoteRepo;
 import BBT_InClass.repository.StudentRepo;
 import BBT_InClass.repository.TemeRepo;
+import BBT_InClass.service.ServiceNote;
 import BBT_InClass.service.ServiceStudent;
 import BBT_InClass.service.ServiceTeme;
+import BBT_InClass.validator.NotaValidator;
 import BBT_InClass.validator.StudentValidator;
 import BBT_InClass.validator.TemeValidator;
 import BBT_InClass.validator.ValidationException;
@@ -16,12 +20,17 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.AbstractMap;
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Unit test for simple App.
  */
 public class AppTest {
     private ServiceStudent stdService;
     private ServiceTeme temeService;
+    private ServiceNote noteService;
 
     /**
      * Rigorous Test :-)
@@ -32,6 +41,8 @@ public class AppTest {
         stdService = new ServiceStudent(studentRepo);
         TemeRepo temeRepo = new TemeRepo(new TemeValidator(), "teme.xml");
         temeService = new ServiceTeme(temeRepo);
+        NoteRepo noteRepo = new NoteRepo(new NotaValidator(), "note.xml");
+        noteService = new ServiceNote(noteRepo);
     }
 
     @Test
@@ -103,7 +114,7 @@ public class AppTest {
     }
 
     @Test
-    public void  testDelete(){
+    public void testDelete() {
         this.setUp();
         Teme t2 = new Teme(2, "wwww", 1, 2);
         temeService.del(2);
@@ -123,7 +134,7 @@ public class AppTest {
     }
 
     @Test
-    public void testUpdate(){
+    public void testUpdate() {
         this.setUp();
         Teme t2 = new Teme(2, "wwww", 1, 2);
         temeService.add(t2);
@@ -142,6 +153,30 @@ public class AppTest {
         Assert.assertEquals(stdService.find(s1.getID()).getID(), s1.getID());
     }
 
+    @Test
+    public void testAddGrade() {
+        this.setUp();
+        Map.Entry<String, Integer> nid = new AbstractMap.SimpleEntry<String, Integer>("1", 1);
+        Nota n1 = new Nota(nid, this.stdService.find("1"), this.temeService.find(1), 8, 5);
+        Nota n2 = this.noteService.add(n1, "all good");
+        Integer expectedHere = 1;
+        Assert.assertEquals(n2,null);
+
+    }
+
+    @Test
+    public void testBigBang() {
+        addStudentsTestTwo();
+        Integer expectedHere = 3;
+        Assert.assertEquals(stdService.getSize(), expectedHere);
+        addTemeTwo();
+        Teme t1 = temeService.find(1);
+        expectedHere = 1;
+        Assert.assertEquals(t1.getID(), expectedHere);
+
+
+
+    }
 
 
     @Test
