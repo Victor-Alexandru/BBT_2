@@ -1,21 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <inbox>
     <Student idStudent="1">
-        <nume>Antoniu</nume>
+        <nume>Name</nume>
         <grupa>931</grupa>
-        <mail>a@a.ro</mail>
-        <profesor>Artur Molnar</profesor>
+        <mail>a@a.a</mail>
+        <profesor>Profesor</profesor>
+    </Student>
+    <Student idStudent="12">
+        <nume>Name</nume>
+        <grupa>936</grupa>
+        <mail>a@a.a</mail>
+        <profesor>Profesor</profesor>
     </Student>
     <Student idStudent="2">
-        <nume>Antoniu</nume>
+        <nume>Name</nume>
         <grupa>931</grupa>
-        <mail>a@a.ro</mail>
-        <profesor>Artur Molnar</profesor>
+        <mail>a@a.a</mail>
+        <profesor>Profesor</profesor>
+    </Student>
+    <Student idStudent="14">
+        <nume>Name</nume>
+        <grupa>936</grupa>
+        <mail>a@a.a</mail>
+        <profesor>Profesor</profesor>
     </Student>
     <Student idStudent="3">
         <nume>Antoniuu</nume>
         <grupa>932</grupa>
         <mail>a2@a2.ro</mail>
         <profesor>Artur Molnarr</profesor>
+    </Student>
+    <Student idStudent="4">
+        <nume>Name</nume>
+        <grupa>111</grupa>
+        <mail>a@a.a</mail>
+        <profesor>Profesor</profesor>
+    </Student>
+    <Student idStudent="5">
+        <nume>Name</nume>
+        <grupa>112</grupa>
+        <mail>a@a.a</mail>
+        <profesor>Profesor</profesor>
+    </Student>
+    <Student idStudent="16">
+        <nume>Name</nume>
+        <grupa>936</grupa>
+        <mail>a@a.a</mail>
+        <profesor>Profesor</profesor>
+    </Student>
+    <Student idStudent="7">
+        <nume>Name</nume>
+        <grupa>936</grupa>
+        <mail>a@a.a</mail>
+        <profesor>Profesor</profesor>
+    </Student>
+    <Student idStudent="8">
+        <nume>Name</nume>
+        <grupa>935</grupa>
+        <mail>a@a.a</mail>
+        <profesor>Profesor</profesor>
+    </Student>
+    <Student idStudent="9">
+        <nume>Name</nume>
+        <grupa>936</grupa>
+        <mail>a@a.a</mail>
+        <profesor>Profesor</profesor>
+    </Student>
+    <Student idStudent="10">
+        <nume>Name</nume>
+        <grupa>936</grupa>
+        <mail>a@a.a</mail>
+        <profesor>Profesor</profesor>
     </Student>
 </inbox>

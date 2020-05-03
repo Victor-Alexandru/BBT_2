@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Teme>
     <Tema nr="1">
-        <descriere>wwww</descriere>
-        <deadline>2</deadline>
-        <sapt_primire>1</sapt_primire>
+        <descriere>description</descriere>
+        <deadline>10</deadline>
+        <sapt_primire>2</sapt_primire>
     </Tema>
     <Tema nr="2">
         <descriere>wwww2</descriere>
         <deadline>13</deadline>
         <sapt_primire>12</sapt_primire>
+    </Tema>
+    <Tema nr="6">
+        <descriere>description</descriere>
+        <deadline>10</deadline>
+        <sapt_primire>2</sapt_primire>
+    </Tema>
+    <Tema nr="7">
+        <descriere>description</descriere>
+        <deadline>5</deadline>
+        <sapt_primire>2</sapt_primire>
     </Tema>
 </Teme>
