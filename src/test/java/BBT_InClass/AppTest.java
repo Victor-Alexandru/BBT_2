@@ -360,7 +360,7 @@ public class AppTest {
         stdService.add(s1);
         temeService.add(teme);
 
-        Integer result = 12;
+        Integer result = 11;
         Assert.assertEquals(stdService.getSize(), result);
         result=4;
         Assert.assertEquals(temeService.size(),result);

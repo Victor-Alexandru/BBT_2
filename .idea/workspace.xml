@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adac5f33-6947-431d-b965-037a2b88dcf9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Name.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Name.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BBT_InClass/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BBT_InClass/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="adac5f33-6947-431d-b965-037a2b88dcf9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/BBT_InClass/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="349" column="27" selection-start-line="349" selection-start-column="27" selection-end-line="349" selection-end-column="27" />
+            <state relative-caret-position="292">
+              <caret line="354" column="45" selection-start-line="354" selection-start-column="16" selection-end-line="354" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -248,7 +243,7 @@
       <workItem from="1588532018297" duration="178000" />
       <workItem from="1588532368992" duration="1217000" />
       <workItem from="1588935114878" duration="1792000" />
-      <workItem from="1589746960799" duration="1909000" />
+      <workItem from="1589746960799" duration="2358000" />
     </task>
     <servers />
   </component>
@@ -285,7 +280,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29590000" />
+    <option name="totallyTimeSpent" value="30039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -300,13 +295,13 @@
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -515,8 +510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BBT_InClass/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="349" column="27" selection-start-line="349" selection-start-column="27" selection-end-line="349" selection-end-column="27" />
+        <state relative-caret-position="292">
+          <caret line="354" column="45" selection-start-line="354" selection-start-column="16" selection-end-line="354" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
