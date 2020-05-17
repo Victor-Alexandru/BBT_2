@@ -342,6 +342,69 @@ public class AppTest {
         Assert.assertEquals(temeService.size(),result);
     }
 
+    @Test
+    public void testAddStudent(){
+        Student s1 = new Student("1", "Name", 931, "a@a.a", "Profesor");
+        stdService.add(s1);
+
+        Integer result = 12;
+        Assert.assertEquals(stdService.getSize(), result);
+    }
+
+    @Test
+    public void testAddStudentAndAddAssigment(){
+        Student s1 = new Student("2", "Name", 931, "a@a.a", "Profesor");
+
+        Teme teme = new Teme(2, "description", 2, 10);
+
+        stdService.add(s1);
+        temeService.add(teme);
+
+        Integer result = 12;
+        Assert.assertEquals(stdService.getSize(), result);
+        result=4;
+        Assert.assertEquals(temeService.size(),result);
+    }
+
+    @Test
+    public void testAddStudentAssigmentAndGrade(){
+        Student s1 = new Student("3", "Name", 931, "a@a.a", "Profesor");
+
+        Teme teme = new Teme(1, "description", 2, 10);
+
+        Nota nota = new Nota(new Map.Entry<String, Integer>() {
+            @Override
+            public String getKey() {
+                return "1";
+            }
+
+            @Override
+            public Integer getValue() {
+                return 8;
+            }
+
+            @Override
+            public Integer setValue(Integer value) {
+                return null;
+            }
+        }, s1, teme, 9, 4);
+
+        stdService.add(s1);
+        temeService.add(teme);
+        noteService.add(nota, "text");
+
+
+        Integer result = 12;
+        Assert.assertEquals(stdService.getSize(), result);
+
+        result=4;
+        Assert.assertEquals(temeService.size(),result);
+
+        result=1;
+        Assert.assertEquals(noteService.getSize(), result);
+
+    }
+
 
     @Test
     public void shouldAnswerWithTrue() {

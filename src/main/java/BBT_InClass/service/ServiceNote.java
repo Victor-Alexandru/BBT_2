@@ -18,5 +18,9 @@ public class ServiceNote {
     public Iterable<Nota> all(){
         return rep.findAll();
     }
+
+    public Integer getSize(){
+        return rep.size();
+    }
 }
 
