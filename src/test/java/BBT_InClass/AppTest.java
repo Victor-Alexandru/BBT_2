@@ -54,7 +54,7 @@ public class AppTest {
         //students already exists in the xml so it will be 3
         stdService.add(s1);
         stdService.add(s2);
-        Integer expected = 12;
+        Integer expected = 11;
         Assert.assertEquals(stdService.getSize(), expected);
     }
 
@@ -166,7 +166,7 @@ public class AppTest {
     @Test
     public void testBigBang() {
 //        addStudentsTestTwo();
-        Integer expectedHere = 12;
+        Integer expectedHere = 11;
         Assert.assertEquals(stdService.getSize(), expectedHere);
         addTemeTwo();
         Teme t1 = temeService.find(1);
@@ -347,7 +347,7 @@ public class AppTest {
         Student s1 = new Student("1", "Name", 931, "a@a.a", "Profesor");
         stdService.add(s1);
 
-        Integer result = 12;
+        Integer result = 11;
         Assert.assertEquals(stdService.getSize(), result);
     }
 

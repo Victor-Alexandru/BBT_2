@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Name.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Name.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BBT_InClass/service/ServiceNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BBT_InClass/service/ServiceNote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BBT_InClass/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BBT_InClass/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/BBT_InClass/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="398" lean-forward="true" selection-start-line="398" selection-end-line="398" />
+            <state relative-caret-position="231">
+              <caret line="349" column="27" selection-start-line="349" selection-start-column="27" selection-end-line="349" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,7 +115,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -249,20 +248,11 @@
       <workItem from="1588532018297" duration="178000" />
       <workItem from="1588532368992" duration="1217000" />
       <workItem from="1588935114878" duration="1792000" />
-      <workItem from="1589746960799" duration="251000" />
+      <workItem from="1589746960799" duration="1909000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2020.05.03 at 22h 05m 48s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2020.05.03 at 22h 05m 59s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2020.05.03 at 22h 06m 08s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2020.05.03 at 22h 06m 57s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -284,12 +274,21 @@
     <history-entry file="AppTest - 2020.05.17 at 23h 26m 32s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2020.05.17 at 23h 26m 58s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2020.05.17 at 23h 27m 23s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2020.05.17 at 23h 51m 18s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27932000" />
+    <option name="totallyTimeSpent" value="29590000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24520256" />
@@ -516,8 +515,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BBT_InClass/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="398" lean-forward="true" selection-start-line="398" selection-end-line="398" />
+        <state relative-caret-position="231">
+          <caret line="349" column="27" selection-start-line="349" selection-start-column="27" selection-end-line="349" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
